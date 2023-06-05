@@ -15,6 +15,8 @@ print("\033[93mGreat Day, a precious well-being!")
 # import the python files from the module created
 from user_module import UserInterface
 from calculator_app import SimpleAppCalculator
+from user_inheritance_module import UserInheritance
+from calculator_app_inheritance import NewFunction
 
 program = SimpleAppCalculator()
 interaction = UserInterface()
@@ -28,6 +30,7 @@ def simple_app_calculator():
         selection = interaction.basic_math_operations()
         var1 = interaction.var1()
         var2 = interaction.var2()
+
     # execute the recognized chosen operation
         if selection == "+":
            sum = program.__add__(var1, var2)
@@ -44,6 +47,11 @@ def simple_app_calculator():
         elif selection == "/":
             quotient = program.__divide__(var1, var2)
             interaction.quotient(quotient)
+
+        elif selection == "^":
+             exponent = inheritance_calcu.exponent(var1, var2)
+             inheritance_module.exponent(exponent)
+
         else:
              print("\033[93mOh no! There must be a problem in your input to be invalid.")
 
