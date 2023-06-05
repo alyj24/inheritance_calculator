@@ -28,7 +28,8 @@ class UserInterface:
     '''division'''
     def quotient(self, quotient):
         print("\033[91mThe quotient of your input is: ", quotient)
-
+    def exponent(self, exponent):
+        print("\033[92mThe power of your input is: ", exponent)")
 # once again, ask the user if want to try again or not
     def retry (self):
         option = input("\033[93mNice choice of your operation and numbers! Do you want to try again? (yes, indeed/already satisfied): ")

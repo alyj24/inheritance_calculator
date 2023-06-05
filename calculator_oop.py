@@ -18,6 +18,7 @@ from calculator_app import SimpleAppCalculator
 
 program = SimpleAppCalculator()
 interaction = UserInterface()
+calculations import Calculations
 
 # implement the program
 def simple_app_calculator():
