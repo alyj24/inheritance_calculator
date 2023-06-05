@@ -1,2 +1,2 @@
-# inheritance_calculator
-Assignment 8
+# simple_calculator_oop-approach
+Assignment 7
