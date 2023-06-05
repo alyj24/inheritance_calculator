@@ -18,7 +18,8 @@ from calculator_app import SimpleAppCalculator
 
 program = SimpleAppCalculator()
 interaction = UserInterface()
-calculations import Calculations
+inheritance_module = UserInheritance()
+inheritance_calcu = NewFunction()
 
 # implement the program
 def simple_app_calculator():
