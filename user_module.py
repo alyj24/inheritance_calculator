@@ -5,6 +5,10 @@ class UserInterface:
         print("\033[92mI have here the basic math operations which are the Addition, Subtraction, Multiplication, and Division")
         selection = input("\033[91mPick a basic math operation among these four (+|-|*|/): ")
         return selection
+    def added_operation(self):
+        print("\033[93mI have new method, the exponent or power of your input number, try this function!")
+        option = input("\033[94mDo you want to get the exponent or power of your number? (yes/no) ")
+        return option
 
 # ask the user for two variables to solve
     def var1(self):
